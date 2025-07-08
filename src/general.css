@@ -1,0 +1,172 @@
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  margin: 0;
+  background-color: #f4f6f8;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+h1,
+h2,
+h3 {
+  color: #2c3e50;
+}
+
+/* === Tables génériques === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #ecf0f1;
+  color: #34495e;
+}
+
+tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* === Boutons === */
+button {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button.add-button {
+  background-color: #3498db;
+  color: white;
+}
+button.add-button:hover {
+  background-color: #2980b9;
+}
+
+button.edit {
+  color: #2ecc71;
+  background: none;
+}
+button.edit:hover {
+  color: #27ae60;
+}
+
+button.delete {
+  color: #e74c3c;
+  background: none;
+}
+button.delete:hover {
+  color: #c0392b;
+}
+
+button.view {
+  color: #34495e;
+  background: none;
+}
+button.view:hover {
+  opacity: 0.7;
+}
+
+/* === Formulaires === */
+form {
+  background: #fafafa;
+  padding: 15px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+form button[type="submit"] {
+  background-color: #2ecc71;
+  color: white;
+}
+
+form button[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+form button[type="button"] {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+form button[type="button"]:hover {
+  background-color: #bdbdbd;
+}
+
+/* === Sidebar style (prochaine étape) === */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.sidebar a:hover {
+  background-color: #34495e;
+}
+
+.main-content {
+  margin-left: 240px;
+  padding: 20px;
+}
+
+.navbar {
+  padding: 10px;
+  background-color: #eee;
+}
+
+.main-content {
+  margin-left: 240px;
+  padding: 20px;
+}
